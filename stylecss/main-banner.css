@@ -1,0 +1,106 @@
+.main-banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.main-banner::before
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../pictures/main-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -5;
+}
+
+.main-banner::after
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0, .7);
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    z-index: -4;
+}
+
+.main-banner__sentence1
+{
+    text-align: center;
+    font-size: 5em;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.main-banner__sentence2
+{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.main-banner__sentence-style1
+{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    background: green;
+    padding: 10px;
+    border-radius: 2%;
+    opacity: 0.5;
+}
+
+.main-banner__sentence3
+{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.main-banner__sentence-style2
+{
+    color: yellow;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.main-banner__button-container
+{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-banner__button-link
+{
+    text-decoration: none;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5%;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.main-banner__button-container:hover
+{
+    transform: scale(0.9);
+}
+
+.main-banner__button-container .main-banner__button-link:hover
+{
+    background: green;
+}

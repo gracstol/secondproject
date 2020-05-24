@@ -1,0 +1,108 @@
+.container
+{
+    background-image: url("../pictures/loginback.png");
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.problems__logo-image
+{
+    position: absolute;
+    left: 0;
+    padding-top: 30px;
+}
+
+.problems-container
+{
+    border: 2px solid #003300;
+    background: #4db34d;
+    margin: auto;
+    padding: 0 50px 20px 50px;
+    border-radius: 2%;
+}
+
+.problems-container__header
+{
+    font-size: 40px;
+}
+
+.problems-container__sentence
+{
+    font-size: 20px;
+}
+
+.input-effect-style
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background: #e6e6e6;
+    border-radius: 2%;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.input-effect-style:hover
+{
+    background: #b3b3b3;
+}
+
+.input-effect-style::placeholder
+{
+    padding: 5px;
+}
+
+.input-effect-style:focus
+{
+    outline: none;
+    box-shadow: 0 0 2px 2px #000;
+}
+
+.problems-container__button
+{
+    padding-top: 30px;
+    border-radius: 30%;
+}
+
+.problems-container__button-link
+{
+    text-decoration: none;
+    color: #000;
+    border: 2px solid#004d00;
+    border-radius: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background: rgb(22,189,20);
+    background: linear-gradient(90deg, rgba(22,189,20,1) 30%, rgba(38,101,29,1) 70%);
+}
+
+.problems-container__button-link:hover
+{
+    background: rgb(22,189,20);
+    background: linear-gradient(270deg, rgba(22,189,20,1) 30%, rgba(38,101,29,1) 70%);
+}
+
+.problems-container__button-link:focus
+{
+    outline: none;
+}
+
+.register__last-sentence
+{
+    padding-top: 30px;
+}
+
+.register__last-sentence-link
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.register__last-sentence-image
+{
+    width: 30px;
+    height: 30px;
+}
