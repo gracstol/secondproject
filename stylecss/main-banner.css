@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+    height: 94vh;
 }
 
 .main-banner::before

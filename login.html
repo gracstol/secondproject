@@ -29,21 +29,21 @@
             <h3 class="login-container__header">
                 Zaloguj się
             </h3>
-            <div class="input-container input-effect-container">
-                <input class="input-effect-style" type="text" placeholder="Nazwa użytkownika">
-            </div>
-            <div class="input-container input-effect-container">
-                <input class="input-effect-style" type="text" placeholder="Hasło">
-            </div>
-            <div class="input-container">
-                <input type="checkbox" class="checkbox-style">
-                Nie wylogowywuj mnie
-            </div>
-            <div class="input-container__button">
-                <a href="#" class="input-container__button-link">
-                    <img src="pictures/login.png" alt="Przycisk" class="input-container__button-image" />
-                </a>
-            </div>
+            <form>
+                <div class="input-container input-effect-container">
+                    <input class="input-effect-style" type="text" placeholder="Nazwa użytkownika" required>
+                </div>
+                <div class="input-container input-effect-container">
+                    <input class="input-effect-style" type="password" placeholder="Hasło" required>
+                </div>
+                <div class="input-container">
+                    <input type="checkbox" class="checkbox-style">
+                    Nie wylogowywuj mnie
+                </div>
+                <div class="input-container__button">
+                    <input type="image" name="submit" src="pictures/login.png" alt="Submit" class="input-container__button-image" />
+                </div>
+            </form>
             <div class="login-container__problems">
                 <a href="loginproblems.html" class="login-other-link">
                     Nie możesz się zalogować?

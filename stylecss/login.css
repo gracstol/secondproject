@@ -1,6 +1,7 @@
 .container
 {
-    background-image: url("../pictures/loginback.png");
+    background-image: url("../pictures/gamingpattern.png");
+    background-position: center;
     height: 100vh;
     text-align: center;
     justify-content: center;
@@ -71,6 +72,11 @@
 .input-container__button-image:hover
 {
     opacity: 1;
+}
+
+.input-container__button-image:focus
+{
+    outline: none;
 }
 
 .login-other-link
