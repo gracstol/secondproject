@@ -44,6 +44,7 @@
 {
     text-decoration: none;
     color: #fff;
+    display:block;
 }
 
 .main-navigation__list-item-link:hover
@@ -73,6 +74,7 @@
     box-shadow: 0 0 3px 3px green;
     background: green;
 }
+
 
 /* Main banner */
 
