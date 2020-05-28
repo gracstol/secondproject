@@ -1,0 +1,31 @@
+.about-us__container
+{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: #6c936c;
+}
+
+.about-us__image
+{
+    width: 40%;
+    height: 40%;
+    box-shadow: 4px -2px 3px 5px green;
+    border-radius: 3%;
+}
+
+.about-us__information-container
+{
+    padding: 30px;
+}
+
+.about-us__information-header
+{
+    font-size: 40px;
+}
+
+.about-us__information-paragraph
+{
+    font-size: 20px;
+}

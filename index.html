@@ -19,11 +19,18 @@
     <link rel="stylesheet" href="stylecss/main-banner.css">
     <!-- Main navigation css file -->
     <link rel="stylesheet" href="stylecss/main-navigation.css">
-    <!-- News css file -->
-    <link rel="stylesheet" href="stylecss/news.css">
+    <!-- About-us css file -->
+    <link rel="stylesheet" href="stylecss/about-us.css">
+    <!-- Introducing css file -->
+    <link rel="stylesheet" href="stylecss/introducing.css">
+    <!-- Footer css file -->
+    <link rel="stylesheet" href="stylecss/footer.css">
+
 
     <!-- Login and password html file -->
     <link rel="stylesheet" href="login.html">
+    <!-- Register html file -->
+    <link rel="stylesheet" href="register.html">
 
 
 </head>
@@ -56,7 +63,11 @@
                     Zaloguj się
                 </a>
             </button>
-
+            <button class="main-navigation__button">
+                <a href="kontogracza.html" class="main-navigation__button-link"> 
+                    Konto gracza
+                </a>
+            </button>
         </div>
     </nav>
 
@@ -73,35 +84,87 @@
             <p class="main-banner__sentence2">
                 prowadzącym swoje drużyny do <span class="main-banner__sentence-style2"> zwycięstw </span>
             </p>
-            <div class="main-banner__button-container">
-                <a href="#about-us" class="main-banner__button-link">
-                    Sprawdź to
-                </a>
+        </div>
+    </section>
+
+    <!-- About-us section -->
+    <section class="about-us" id="about-us">
+        <div class="about-us__container">
+            <img src="pictures/aboutus-photo.png" class="about-us__image" alt="Piłkarz" />
+            <div class="about-us__information-container">
+                <h3 class="about-us__information-header">
+                    Kariera online - na czym polega?
+                </h3>
+                <p class="about-us__information-paragraph">
+                    Cała zabawa odbywa się przy użyciu gry FIFA na platformie Xbox One. To tam rozgrywane są mecze z przeciwnikami. Zapewne wielokrotnie miałeś do czynienia z trybem kariery w którejkolwiek z gier z serii FIFA. Dzięki tej stronie możesz urozmaicić grę w tym trybie, zamieniająć rywalizację z botem na konkurowanie z innymi graczami. Na stronie przejmiesz stery w jednym z autentycznych klubów, skompletujesz pierwszy skład, który z biegiem czasu ulepszysz nowymi transferami. W odpowiedniej sekcji na stronie sprawdzisz które Twój klub zajmuje miejsce w tabeli, z kim gra następny mecz, jakim dyspouje budżetem oraz jakie są oczekiwania zarządu na ten sezon.
+                </p>
+            </div>
+        </div>
+
+        <div class="introducing__container">
+            <h3 class="introducing__header">
+                Zacznij swoją przygodę
+                w 
+                trzech prostych krokach!
+            </h3>
+            <div class="introducing__storage">
+                <div class="introducing__storage-first storage-styles">
+                    <img src="pictures/register.png" alt="Register-icon" class="introducing__storage-icon">
+                    <h2 class="introducing__storage-header">
+                        Rejestracja
+                    </h2>
+                    <p class="introducing__storage-text">
+                        Na stronie będziesz mógł zarządzać swoim klubem: Przeprowdzać transfery, sprawdzać terminarz, komunikować się z przeciwnikami i wiele, wiele innych.
+                    </p>
+                </div>
+                <div class="introducing__storage-second storage-styles">
+                    <img src="pictures/register.png" alt="Register-icon" class="introducing__storage-icon">
+                    <h2 class="introducing__storage-header">
+                        Rejestracja
+                    </h2>
+                    <p class="introducing__storage-text">
+                        Na stronie będziesz mógł zarządzać swoim klubem: Przeprowdzać transfery, sprawdzać terminarz, komunikować się z przeciwnikami i wiele, wiele innych.
+                    </p>
+                </div>
+                <div class="introducing__storage-third storage-styles">
+                    <img src="pictures/register.png" alt="Register-icon" class="introducing__storage-icon">
+                    <h2 class="introducing__storage-header">
+                        Rejestracja
+                    </h2>
+                    <p class="introducing__storage-text">
+                        Na stronie będziesz mógł zarządzać swoim klubem: Przeprowdzać transfery, sprawdzać terminarz, komunikować się z przeciwnikami i wiele, wiele innych.
+                    </p>
+                </div>
+            </div>
+            <div class="introducing__button-container">
+                <button class="introducing__button">
+                    <a href="register.html" class="introducing__button-link">
+                        Zarejestruj się
+                    </a>
+                </button>
             </div>
         </div>
     </section>
 
-    <main class="scroll-container">
-    <section class="scroll-style">
-        <div>
-            <h2>Section 1</h2>
-            <p>Scroll inside this container</p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <div>
+                    <a href="mailto:" class="footer-contact__link"> Menagoleague@gmail.com </a>
+                </div>
+                <div>
+                    <a href="tel:00000000" class="footer-contact__link"> 000-000-000 </a>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="pictures/logo.png" class="footer-logo__link">
+            </div>
+            <div class="footer-copywright">
+                projekt | MenagoTeam &copy; | 2020
+            </div>
         </div>
-    </section>
-    <section class="scroll-style">
-        <h2>Section 2</h2>
-    </section>
-    <section class="scroll-style">
-        <h2>Section 3</h2>
-    </section>
-    <section class="scroll-style">
-        <h2>Section 4</h2>
-    </section>
-</main>
+    </footer>
 
 
 </body>
-</html>
-
-
-
+</html> 

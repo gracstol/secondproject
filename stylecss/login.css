@@ -100,3 +100,20 @@
     left: 0;
     padding-top: 30px;
 }
+
+.login__last-sentence
+{
+    padding-top: 20px;
+}
+
+.login__last-sentence-link
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.login__last-sentence-image
+{
+    width: 30px;
+    height: 30px;
+}

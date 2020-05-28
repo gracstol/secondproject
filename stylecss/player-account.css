@@ -1,0 +1,185 @@
+/* Css file for player account files */
+
+/* Main navigation */
+
+.main-navigation
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(26, 26, 26, 0.8);
+    z-index: 999;
+}
+
+.main-navigation__inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin: 0 auto 0 0;
+    letter-spacing: 1.5px;
+    padding-left: 100px;
+}
+
+.main-navigation__mobile-button
+{
+    display: none;
+}
+
+.main-navigation__list
+{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-navigation__list-item
+{
+    padding-left: 40px;
+}
+
+.main-navigation__list-item-link
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-navigation__list-item-link:hover
+{
+    box-shadow: 0 0 3px 3px green;
+    background: green;
+}
+
+.main-navigation__button
+{
+    background: unset;
+    border: unset;
+    border-radius: 3%;
+    padding: 0 10px;
+}
+
+.main-navigation__button-link
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+.main-navigation__button-link:hover
+{
+    box-shadow: 0 0 3px 3px green;
+    background: green;
+}
+
+/* Main banner */
+
+/* About player information section */
+
+.main-banner__player-account
+{
+    background-image: url("../pictures/gamingpattern.png");
+    background-position: center;
+    height: 94vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+tr
+{
+    scroll-snap-align: center;
+}
+
+.about-player__information
+{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.about-player__information-boxes
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.about-player__information-boxes:hover
+{
+    color: #f1f1f1;
+}
+
+.about-player__logo-link
+{
+    width: 100px;
+    height: 100px;
+}
+
+.about-player__information-style
+{
+    color: white;
+    font-weight: 900;
+}
+
+
+/* Last transfers section */
+
+
+
+
+
+
+/* heehhejehwqhwesbnfghjhjtklj */
+.last-transfers__table
+{
+    width: 600px;
+    border: 1px solid;
+}
+  
+.last-transfers__table thead
+{
+    background-color: #bbb;  
+}
+  
+.last-transfers__table tbody 
+{
+    display: block; 
+    width:100%; 
+    overflow-y:scroll;
+}
+
+.last-transfers__table tr
+{
+    display:flex;
+}
+  
+.last-transfers__table td,
+.last-transfers__table th
+{
+    flex-basis:100%;
+    display: block;
+    padding: 1rem;
+}
+
+.last-transfers__table td
+{
+    border: 2px solid #333;         
+}
+  
+.last-transfers__content
+{
+    max-height: 50vh;
+}

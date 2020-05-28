@@ -1,0 +1,97 @@
+.introducing__container
+{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.introducing__header
+{
+    font-size: 40px;
+}
+
+.introducing__storage
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.introducing__storage-first
+{
+
+}
+
+.introducing__storage-second
+{
+    
+}
+
+.introducing__storage-third
+{
+    
+}
+
+.storage-styles
+{
+    border-radius: 3%;
+    width: 400px;
+    height: 300px;
+    margin: 0.5em;
+    background-color: #f2f2f2;
+}
+
+.storage-styles:hover
+{
+    box-shadow: 0 0 3px 3px green;
+    background-color: #bbb;
+}
+
+.introducing__storage-icon
+{
+    padding-top: 10px;
+    width: 15%;
+}
+
+.introducing__storage-header
+{
+    font-size: 30px;
+    padding: 5px;
+}
+
+.introducing__storage-text
+{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.introducing__button-container
+{
+    margin: 30px;
+}
+
+.introducing__button
+{
+    padding: 20px;
+    border-radius: 3%;
+    background-color: #d9d9d9;
+    box-shadow: 0 0 3px 3px green;
+    opacity: 0.8;
+}
+
+.introducing__button:hover
+{   
+    background-color: #bfbfbf;
+    box-shadow: 0 0 8px 5px green;
+    opacity: 1;
+}
+
+.introducing__button-link
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 26px;
+    text-transform: uppercase;
+    border-radius: 3%;
+}
