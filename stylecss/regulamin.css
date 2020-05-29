@@ -1,0 +1,16 @@
+.container
+{
+    padding: 30px;
+    background: #093028;
+    background: -webkit-linear-gradient(to right, #093028, #237a57);
+    background: linear-gradient(to right, #093028, #237a57);
+    line-height: 1.5;
+}
+
+.container-header
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #bbb;
+    text-align: center;
+}

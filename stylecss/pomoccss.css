@@ -5,6 +5,7 @@
     background: -webkit-linear-gradient(to right, #093028, #237a57);
     background: linear-gradient(to right, #093028, #237a57);
     line-height: 1.5;
+    color: #bbb;
 }
 
 .container-header
@@ -13,6 +14,9 @@
     text-transform: uppercase;
     color: #bbb;
     text-align: center;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main-header
@@ -20,6 +24,10 @@
     font-size: 30px;
     text-transform: uppercase;
     color: #bbb;
+    text-align: center;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .lower-header
@@ -27,6 +35,10 @@
     font-size: 24px;
     color: #bbb;
     text-transform: uppercase;
+    text-align: center;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .main-list__item
@@ -47,7 +59,7 @@
 .list-link
 {
     text-decoration: underline;
-    color: #000;
+    color:  gray;
     text-transform: uppercase;
 }
 
@@ -72,7 +84,9 @@
 {
     text-decoration: none;
     border-bottom: 2px solid #fff;
-    color: #bbb;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 20px;
     text-transform: uppercase;
     border-top: 2px solid #fff;
@@ -83,5 +97,7 @@
 
 .rules:hover
 {
-    color: #fff;
+    background: -webkit-linear-gradient(#99ff99, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
 }
