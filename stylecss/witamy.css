@@ -1,0 +1,44 @@
+.container
+{
+    background-image: url("../pictures/gamingpattern.png");
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-container
+{
+    border: 2px solid #003300;
+    background: #4db34d;
+    padding: 30px;
+    border-radius: 2%;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.welcome-paragraph__word
+{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    color: #333;
+}
+
+.link-styles
+{
+    color: #000;
+}
+
+.link-styles:hover
+{
+    color: green;
+}
+
+.arrow-styles
+{
+    width: 50px;
+}
