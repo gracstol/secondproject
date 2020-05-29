@@ -5,6 +5,8 @@
     background: -webkit-linear-gradient(to right, #093028, #237a57);
     background: linear-gradient(to right, #093028, #237a57);
     line-height: 1.5;
+    color: #bbb;
+    font-size: 17px;
 }
 
 .container-header
@@ -13,4 +15,27 @@
     text-transform: uppercase;
     color: #bbb;
     text-align: center;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-header
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lower-header
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    background: -webkit-linear-gradient(#99ff99, #006600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
