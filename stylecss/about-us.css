@@ -41,15 +41,15 @@
 .about-us__information-header
 {
     font-size: 40px;
-    transition: .7s;
-    transform: translateY(-2em);
+    transition: 1.2s ease;
+    transform: translateY(-1em);
 }
 
 .about-us__information-text
 {
     font-size: 20px;
-    transition: .7s;
-    transform: translateY(8em);
+    transition: 1.2s ease;
+    transform: translateY(7em);
     padding: 20px;
 }
 
