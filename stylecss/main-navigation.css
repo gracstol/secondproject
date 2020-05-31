@@ -48,14 +48,6 @@
     background: green;
 }
 
-.main-navigation__button
-{
-    background: unset;
-    border: unset;
-    border-radius: 3%;
-    padding: 0 10px;
-}
-
 .main-navigation__button-link
 {
     text-decoration: none;

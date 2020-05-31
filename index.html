@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="stylecss/introducing.css">
     <!-- Footer css file -->
     <link rel="stylesheet" href="stylecss/footer.css">
-
+    <!-- Mobile css file -->
+    <link rel="stylesheet" href="stylecss/mobile.css">
 
     <!-- Login and password html file -->
     <link rel="stylesheet" href="login.html">
@@ -40,10 +41,10 @@
 
     <nav class="main-navigation">
         <div class="main-navigation__inner">
-            <button class="main-navigation__mobile-button">
-                <img src="blablabla" class="main-navigation__mobile-button-image" alt="Otwórz/zamknij nawigację">
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="pictures/navigation.svg" class="main-navigation__mobile-button-image" alt="Otwórz/zamknij nawigację">
             </button>
-            <ul class="main-navigation__list">
+            <ul class="main-navigation__list js-main-navigation__list">
                 <img src="pictures/logo.png" alt="Logo strony" class="main-navigation__logo-link">
                 <li class="main-navigation__list-item">
                     <a href="#" class="main-navigation__list-item-link"> Tabele i terminarz </a>
@@ -54,16 +55,21 @@
                 <li class="main-navigation__list-item">
                     <a href="pomoc.html" class="main-navigation__list-item-link"> Pomoc </a>
                 </li>
-            </ul>
-                <button class="main-navigation__button">
+                <li class="main-navigation__list-item">
                     <a href="register.html" class="main-navigation__button-link"> 
                         Załóż konto
                     </a>
+                </li>
+                <li class="main-navigation__list-item">
                     <a href="login.html" class="main-navigation__button-link"> 
                         Zaloguj się
                     </a>
-                </button>
+                </li>
+                </ul>
         </div>
+
+        <script src="mobilenavigation.js"> </script>
+
     </nav>
 
     <!-- Main-banner section -->
@@ -153,7 +159,7 @@
 
     <footer class="footer">
         <div class="footer-container">
-                
+
                     projekt | MenagoTeam | &copy; 2020 Wszelkie prawa zastrzeżone.
         </div>
     </footer>

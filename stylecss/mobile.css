@@ -1,0 +1,108 @@
+/* Main navigation section */
+
+@media(max-width: 767px)
+{
+    .main-navigation
+    {
+        width: 100vw;
+        padding: unset;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    .main-navigation__mobile-button
+    {
+        display: unset;
+        background: none;
+        border: none;
+    }
+
+    .main-navigation__mobile-button:focus
+    {
+        outline: none;
+    }
+
+    .main-navigation__logo-link
+    {
+        display: none;
+    }
+
+    .main-navigation__mobile-button-image
+    {
+        margin: 5px;
+        width: 26px;
+    }
+
+    .main-navigation__list
+    {
+        position: fixed;
+        padding: unset;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #333;
+        opacity: 0;
+        pointer-events: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 1.75;
+    }   
+
+    .main-navigation__list--open
+    {
+       opacity: 0.8;
+       pointer-events: unset;
+       transform: unset;
+       font-weight: 900;
+       color: #fff;
+    }   
+
+    .main-navigation__list-link
+    {
+        font-size: 22px;
+    }
+
+    .main-navigation__button-link
+    {
+        padding: unset;
+    }
+
+}
+
+/* Main banner  section */
+
+@media(max-width: 767px)
+{
+    .main-banner__sentence1
+    {
+        font-size: 2em;
+    }
+
+    .main-banner__sentence-style1
+    {
+        font-size: 1em;
+    }
+
+    .main-banner__button
+    {
+        font-size: 1.2em;
+    }
+}
+
+/* About-us section */
+
+@media(max-width: 767px)
+{
+    .about-us__image
+    {
+        width: 300px;
+    }
+
+    .about-us__information-header
+    {
+        font-size: 25px;
+    }
+    .about-us__information-text
+    {
+        font-size: 7px;
+    }
+}
